@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>matching page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="settings.css" type="text/css" />
+  </head>
+
+<body>
+    <section class="header">
+    <div class="navbar-container">
+      <nav class="navbar">
+        <a><img id="navbar-logo" src="logo.png" length = "50" width = "50" /></a>
+<!--         buttons that need linkage -->
+        <a class="button is-text" >Home</a>
+        <a class="button is-text" >Friend Requests</a>
+        <a class = "button is-text" href="">Conversations</a>
+      </nav>
+    </div>
+  </section>
+        <section class = "cardRow">
+
+          <div class="avatar-container">
+
+          <div class="avatar-information">
+            <div class="back-button-container">
+              <a href="profile.html"><button class="back-button"><img class="back-arrow-image"src="https://icons-for-free.com/download-icon-eva+icons+++fill+back-1324449854712975222_512.png"/></button></a>
+            </div>
+            <div class="avatar-name">
+    <!--           username -->
+              <h1>Settings</h1>
+            </div>
+            <div class="avatar-image">
+    <!--           pfp image -->
+              <img id="user-profile-image" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"/>
+            </div>
+    <!--         # of friends-->
+            <div class="function-button-container">
+              <div class="avatar-button-container">
+                
+                <input type="text" name="major" id="major" placeholder="Major">
+              </div>
+              <div class="avatar-button-container">
+                
+                <input type="text" name="college" id="college" placeholder="College">
+              </div>
+              <div class="avatar-button-container">
+                <select name="year" id="year">
+          <option class="select-year" value="" disabled selected>Select Year</option>
+          <option value="freshman">Freshman</option>
+          <option value="sophmore">Sophmore</option>
+          <option value="junior">Junior</option>
+          <option value="senior">Senior</option>
+          <option value="grad">Grad</option>
+        </select>
+              </div>
+              <div class="avatar-button-container">
+              <input type="password" name="password" id="password" minlength="8" required placeholder="Password">
+              <input type="submit" class="submit-button" value="Update">
+              </div>
+            </div>
+          </div>
+        </div>
+          
+    
+  </section>
+
+  
+</body>
+
+</html>

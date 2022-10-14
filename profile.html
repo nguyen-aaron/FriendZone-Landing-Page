@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FriendZone</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css" />
+  <link rel="stylesheet" href="profile.css" type="text/css" />
+  <script src="profile.js" defer>
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.js"
+    integrity="sha512-qRj8N7fxOHxPkKjnQ9EJgLJ8Ng1OK7seBn1uk8wkqaXpa7OA13LO6txQ7+ajZonyc9Ts4K/ugXljevkFTUGBcw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<!-- this header is different, it has hammer library  -->
+
+<body>
+  <section class="header">
+    <div class="navbar-container">
+      <nav class="navbar">
+        <a class="navbar-logo-container"><img id="navbar-logo" src="logo.png" length="50" width="50" /></a>
+        <!--         buttons that need linkage -->
+        <a class="button is-text" href="profile.html">Home</a>
+        <a class="button is-text">Friend Requests</a>
+        <a class="button is-text" href="messaging.html">Conversations</a>
+      </nav>
+    </div>
+  </section>
+  <section class="cardRow">
+
+    <div class="avatar-container">
+      <div class="avatar-information">
+        <div class="avatar-name">
+          <!--           username -->
+          <h1>Welcome, (username)</h1>
+        </div>
+        <div class="avatar-image">
+          <!--           pfp image -->
+          <img id="user-profile-image"
+            src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" />
+        </div>
+        <!--         # of friends-->
+        <div class="function-button-container">
+          <div class="avatar-button-container">
+            <a href="settings.html"><button class="avatar-button" id="settings">Settings</button></a>
+          </div>
+          <div class="avatar-button-container">
+            <a href="index.html"><button class="avatar-button" id="logout">Logout</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="tinder">
+      <div class="tinder--status">
+        <i class="fa fa-remove"></i>
+        <i class="fa fa-heart"></i>
+      </div>
+      <!-- content for new match -->
+      <div class="tinder--cards">
+        <div class="tinder--card">
+          <img src="https://placeimg.com/600/300/people">
+          <h3>Demo card 1</h3>
+          <p>This is a demo for Tinder like swipe cards</p>
+        </div>
+      </div>
+
+      <div class="tinder--buttons">
+        <button id="nope"><i class="fa fa-remove"></i></button>
+        <button id="love"><i class="fa fa-heart"></i></button>
+      </div>
+    </div>
+    <!-- content for friends list -->
+    <div class="friends-container">
+      <div class="friends-information">
+        <div class="friends-list">
+          <h1>Friends List</h1>
+        </div>
+        <div class="friends-list-container">
+          <div class="friend-object">
+            <div class="friend-image-container">
+              <img class="friend-image"
+                src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" />
+            </div>
+            <div class="friend-name">
+              <h1>Friend 1</h1>
+            </div>
+          </div>
+          <div class="friend-object">
+            <div class="friend-image-container">
+              <img class="friend-image"
+                src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" />
+            </div>
+            <div class="friend-name">
+              <h1>Friend 2</h1>
+            </div>
+          </div>
+          <div class="friend-object">
+            <div class="friend-image-container">
+              <img class="friend-image"
+                src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" />
+            </div>
+            <div class="friend-name">
+              <h1>Friend 3</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+</body>
+
+</html>

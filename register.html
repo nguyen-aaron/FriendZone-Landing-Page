@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="register.css" rel="stylesheet" type="text/css" />
+  <script src="logRegistration.js" theme="blue" defer></script> 
+</head>
+
+<body>
+<!--   <button type="button">Log in</button>
+  <button type="button">Register</button> -->
+  
+  <section class="body">
+    <div class="login-container">
+      <div class="login-image">
+      <img class="logo" src="https://www.webwise.ie/wp-content/uploads/2015/09/tinder.png"/>
+      </div>
+      <div class="welcome-container">
+        <h1>Join Your Community!</h1>
+      </div>
+      <div class="form-container">
+      <form class=>
+        <input type="text" name="username" id="username" placeholder="Username">
+        <input type="text" name="major" id="major" placeholder="Major">
+        <input type="text" name="college" id="college" placeholder="College">
+        <select name="year" id="year">
+          <option class="select-year" value="" disabled selected>Select Year</option>
+          <option value="freshman">Freshman</option>
+          <option value="sophmore">Sophmore</option>
+          <option value="junior">Junior</option>
+          <option value="senior">Senior</option>
+          <option value="grad">Grad</option>
+        </select>
+        <input type="email" name="email" id="email" placeholder="Email" required>
+        <input type="password" name="password" id="password" minlength="8" required placeholder="Password">
+        <input type="submit" value="Register">
+          <a href="login.html" class="have-an-account-container"><p class="have-an-account">Have an account?</p></a>
+          <a class="home-button-container" href="index.html"><img id="home-button" src="https://icon-library.com/images/home-logo-icon/home-logo-icon-0.jpg"/></a>
+      </form>
+      </div>
+    </div>
+    
+  </section>
+
+
+<!-- <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+  <div class="field">
+    <%= f.label :email %><br /> 
+    <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
+  </div>
+
+  <div class="field">
+    <%= f.label :password %><br />
+    <%= f.password_field :password, autocomplete: "current-password" %>
+  </div>
+
+  <% if devise_mapping.rememberable? %>
+    <div class="field">
+      <%= f.check_box :remember_me %>
+      <%= f.label :remember_me %>
+    </div>
+  <% end %>
+
+  <div class="actions">
+    <%= f.submit "Log in" %>
+  </div>
+<% end %>  FORM -->
+  
+<!-- <%- if devise_mapping.registerable? && controller_name != 'registrations' %>
+<%= link_to "Sign up", new_registration_path(resource_name) %><br />
+<% end %>  SIGN UP LOGIN BUTTON-->
+  
+</body>
+</html>

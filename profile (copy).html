@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="profile.css" rel="stylesheet" type="text/css" />
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <script src= "profile.js" defer></script>
+</head>
+<body>
+  <section class="header">
+    <div class="navbar-container">
+      <nav class="navbar">
+        <a class="navbar-logo-container"><img id="navbar-logo" src="logo.png"/></a>
+<!--         buttons that need linkage -->
+        <a class="button is-text" >Home</a>
+        <a class="button is-text" >Friends</a>
+        <a class="button is-text" >Friend Requests</a>
+        <a class = "button is-text" href="">Conversation</a>
+      </nav>
+    </div>
+  </section>
+  <section class="body">
+    <div class="row">
+      <div class="left-body">
+        <div class="avatar-container">
+          <div class="avatar-information">
+            <div class="avatar-name">
+    <!--           username -->
+              <h1>Welcome, (username)</h1>
+            </div>
+            <div class="avatar-image">
+    <!--           pfp image -->
+              <img id="user-profile-image" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"/>
+            </div>
+    <!--         # of friends-->
+            <div>
+              <button class="avatar-button" id="settings">Settings</button>
+            </div>
+            <div>
+              <button class="avatar-button" id="logout">Logout</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+    <div class="middle-body">
+      <div class="tinder">
+  <div class="tinder--status">
+    <i class="fa fa-remove"></i>
+    <i class="fa fa-heart"></i>
+  </div>
+
+  <div class="tinder--cards">
+    <div class="tinder--card">
+      <img src="https://placeimg.com/600/300/people">
+      <h3>Demo card 1</h3>
+      <p>This is a demo for Tinder like swipe cards</p>
+    </div>
+    <div class="tinder--card">
+      <img src="https://placeimg.com/600/300/animals">
+      <h3>Demo card 2</h3>
+      <p>This is a demo for Tinder like swipe cards</p>
+    </div>
+    <div class="tinder--card">
+      <img src="https://placeimg.com/600/300/nature">
+      <h3>Demo card 3</h3>
+      <p>This is a demo for Tinder like swipe cards</p>
+    </div>
+    <div class="tinder--card">
+      <img src="https://placeimg.com/600/300/tech">
+      <h3>Demo card 4</h3>
+      <p>This is a demo for Tinder like swipe cards</p>
+    </div>
+    <div class="tinder--card">
+      <img src="https://placeimg.com/600/300/arch">
+      <h3>Demo card 5</h3>
+      <p>This is a demo for Tinder like swipe cards</p>
+    </div>
+  </div>
+
+  <div class="tinder--buttons">
+    <button id="nope"><i class="fa fa-remove"></i></button>
+    <button id="love"><i class="fa fa-heart"></i></button>
+  </div>
+</div>
+    </div>
+      <div class="right-body">
+        <div class="friends-container">
+          <div class="friends-information">
+            <div class="friends-list">
+              <h1>Friends List</h1>
+            </div>
+              <div class="friends-list-container">
+                <div class="friend-object">
+                  <div class="friend-image-container">
+                    <img class="friend-image" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"/>
+                  </div>
+                  <div class="friend-name">
+                    <h1>Friend 1</h1>
+                  </div>
+                </div>
+                <div class="friend-object">
+                  <div class="friend-image-container">
+                    <img class="friend-image" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"/>
+                  </div>
+                  <div class="friend-name">
+                    <h1>Friend 2</h1>
+                  </div>
+                </div>
+              </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="footer">
+
+
+  </footer>
+</body>
+</html>
